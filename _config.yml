@@ -21,6 +21,9 @@ social:
   links:
     - https://github.com/expane
 
+image:
+  assets/pic/spirit.png
+
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
