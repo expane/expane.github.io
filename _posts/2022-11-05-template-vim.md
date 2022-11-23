@@ -5,11 +5,11 @@ categories: [杂项]
 tags: []
 ---
 
+实际只需要前 5 行！简单实用！
+
 ```vim
 filetype plugin indent on
-syntax on
 set nu rnu ar acd sw=4 ts=4 sts=4 tgc mouse=a foldmethod=marker noswf
-
 map <F7> :wa<CR>:!clear && g++ -DLOCAL -std=c++14 -O2 %<.cpp -o %< && bash -c "time ./%<"<CR>
 map <F8> :wa<CR>:!clear && g++ -fsanitize=address,undefined -DLOCAL -std=c++14 -O2 %<.cpp -o %< && bash -c "time ./%<"<CR>
 map <F9> :wa<CR>:!clear && ./tester.sh<CR>
